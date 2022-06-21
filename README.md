@@ -1,0 +1,1 @@
+This project will be used to help showcase other, more complex, projects that I'm working on. As well as show and tell a little bit about me.
