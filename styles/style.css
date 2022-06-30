@@ -1,3 +1,149 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: whitesmoke;
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #63f;
+}
+
+/* Section Styles */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav li {
+    padding: 5px 10px 10px 10px;
+    float: left;
+    display: block;
+}
+
+.nav a {
+    transition: all .5s;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background: url('../images/chandler-cruttenden-cCMySCLaY9U-unsplash.jpg') no-repeat top center;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+header {
+    line-height: 1.5;
+}
+
+header .profile-image {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+header .profile-image:hover {
+    transform: scale(1.2) rotate(10deg);
+}
+
+.tag {
+    background-color: #efefef;;
+    color: black;
+    padding: 6px;
+    border-radius: 10px;
+    display: table;
+    margin: 10px auto;
+}
+
+.welcome {
+    background-color: #222;
+    color: white;
+}
+
+.home-card {
+    margin: 20px;
+    padding: 20px 40px 20px;
+    max-width: 500px;
+    text-align: left;
+    color: black;
+    background: white;
+    border-bottom: 4px solid white;
+    border-radius: 15px;
+    transition: all .7s;
+}
+
+.home-card:hover {
+    border-color: red;
+}
+
+.projects-card {
+    margin: 20px;
+    padding: 20px 40px 20px;
+    max-width: 500px;
+    text-align: left;
+    color: black;
+    background: white;
+    border-bottom: 4px solid white;
+    border-radius: 15px;
+    transition: all .7s;
+}
+
+projects-card:hover {
+    border-color: green;
+}
+
+ul.skills {
+    padding: 0;
+    text-align: center;
+}
+
+.skills li {
+    border-radius: 6px;
+    display: inline-block;
+    background: #ff9904;
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+}
+
+.skills li:nth-chile(odd) {
+    background: #0399ff;
+}
+
+footer {
+    width: 100%;
+    min-height: 30px;
+    padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+    top: -8px;
+    font-size: .75em;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
