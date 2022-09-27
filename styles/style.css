@@ -93,6 +93,20 @@ header .profile-image:hover {
     transition: all .7s;
 }
 
+.link {
+    list-style-type: none;
+    font-size: 1.4rem;
+    padding-left: 0;
+}
+
+.link li {
+    padding-bottom: 15px;
+}
+
+.link:hover {
+    font-size: 1.5rem;
+}
+
 .home-card:hover {
     border-color: red;
 }
